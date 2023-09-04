@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Apple_Banana
+namespace Apple_Banana.Interfaces
 {
-    internal class Program
+    internal interface IVerseProcessor
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
