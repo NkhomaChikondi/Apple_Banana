@@ -65,14 +65,14 @@ namespace AppleBanana.Services
                             return replacement.ToString();
                         });
                     }
-
-                    modifiedLine += modifiedWord + " "; // Add back the space.
+                    // Add back the space.
+                    modifiedLine += modifiedWord + " "; 
                 }
-
-                modifiedVerse += modifiedLine.TrimEnd() + "\n"; // Remove trailing space and add back newline.
+                // Remove trailing space and add back newline.
+                modifiedVerse += modifiedLine.TrimEnd() + "\n"; 
             }
-
-            return modifiedVerse.TrimEnd(); // Remove trailing newline.
+            // Remove trailing newline.
+            return modifiedVerse.TrimEnd();
         }
     }
 }
