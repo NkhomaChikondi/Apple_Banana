@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Apple_Banana.Interfaces
 {
-    internal interface IVerseProcessor
+    public interface IVerseProcessor
     {
+        char getVowel();
+        bool IsVowel(string vowel);
+        string processVerse(string Verse, char vowel);
+
     }
 }
